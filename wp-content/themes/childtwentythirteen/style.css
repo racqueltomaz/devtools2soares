@@ -1,0 +1,43 @@
+/*
+Theme Name: Twenty Thirteen Child Theme
+Description: Child theme based on Twenty Thirteen
+Author: Racquel Tomaz
+Version: 1.0
+Template: twentythirteen
+*/
+
+@import url('../twentythirteen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+
+h1, h2, h3 {
+	font-family: 'Pangolin', cursive;
+}
+
+.site-title, .site-description {
+	color: white;
+}
+
+body {
+	font-family: 'Pangolin', cursive;
+}
+
+.site-header {
+	background: url(http://localhost/devtools2soares/wp-content/uploads/2017/02/blog-background.jpg) no-repeat scroll top !important;
+}
+
+.navbar {
+	background-color: #cc0033;
+}
+
+.nav-menu li a {
+	color: white;
+}
+
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a {
+	color: #000;
+}
+
+.menu-toggle {
+	font-family: 'Pangolin', cursive;
+	color: white;
+}
