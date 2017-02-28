@@ -6,26 +6,63 @@ Version: 1.0
 Template: twentythirteen
 */
 
-@import url('../twentythirteen/style.css');
-@import url('https://fonts.googleapis.com/css?family=Pangolin');
+/* @import url('../twentythirteen/style.css'); */
+/* CSS imported on functions.php file */
 
-h1, h2, h3 {
-	font-family: 'Pangolin', cursive;
-}
+/* @import url('https://fonts.googleapis.com/css?family=Amiko|Pangolin'); */
+/* Google Fonts already imported on functions.php file */
 
-.site-title, .site-description {
+body {
 	color: white;
 }
 
-body {
+h1, h2, h3, h4, h5 {
 	font-family: 'Pangolin', cursive;
 }
 
-.site-header {
-	background: url(http://localhost/devtools2soares/wp-content/uploads/2017/02/blog-background.jpg) no-repeat scroll top !important;
+.site-title {
+	color: white;
+	font-family: 'Pangolin', cursive;
 }
 
-.navbar {
+.site-description {
+	color: white;
+	font-family: 'Amiko', sans-serif;
+}
+
+.entry-title a {
+	color: white;
+}
+
+.entry-title a:hover {
+	color: #cc0033;
+}
+
+p, span, li {
+	font-family: 'Amiko', sans-serif;
+}
+
+.entry-content a, .entry-content a:hover, .entry-content a:active, .entry-content a:visited {
+	color: #cc0033;
+}
+
+.comment-content a, .comment-content a:hover, .comment-content a:active, .comment-content a:visited {
+	color: #cc0033;
+}
+
+div.entry-meta, div.entry-meta a, div.entry-meta a:hover, div.entry-meta a:visited, div.entry-meta a:active {
+	color: #cc0033;
+}
+
+footer.entry-meta a, footer.entry-meta a:hover, footer.entry-meta a:visited, footer.entry-meta a:active {
+	color: #cc0033;
+}
+
+.site-header {
+	background: url(http://localhost/devtools2soares/wp-content/uploads/2017/02/dark-rainbow.jpg) no-repeat scroll center !important;
+}
+
+.navbar, .widget-area {
 	background-color: #cc0033;
 }
 
@@ -40,4 +77,42 @@ body {
 .menu-toggle {
 	font-family: 'Pangolin', cursive;
 	color: white;
+}
+
+#main {
+	background-color: #222;
+}
+
+.widget .widget-title {
+	font-family: 'Pangolin', cursive;
+}
+
+#colophon {
+	background-color: #222;
+}
+
+div.site-info, div.site-info a {
+	background-color: #222;
+	color: white;
+}
+
+.site-footer .sidebar-container {
+	background-color: #cc0033;
+}
+
+.comment-respond {
+	background-color: #222;
+}
+
+a, a:hover, a:visited, a:active {
+	color: #cc0033;
+}
+
+button, input[type="submit"], input[type="button"], input[type="reset"] {
+	background: linear-gradient(to bottom, #cc0033 0%, #cc0055 100%);
+	border-bottom: 3px solid #cc0033;
+}
+
+button:hover, button:focus, input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:focus, input[type="button"]:focus, input[type="reset"]:focus {
+	background: linear-gradient(to bottom, #cc0055 0%, #cc0033 100%);
 }
